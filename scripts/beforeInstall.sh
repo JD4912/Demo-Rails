@@ -6,3 +6,5 @@ git clone https://github.com/JD4912/Demo-Rails.git /home/ubuntu/rails
 cd /home/ubuntu/rails && rm Gemfile.lock
 #gem install bundler 
 bundle install
+
+

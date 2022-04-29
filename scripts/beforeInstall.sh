@@ -1,6 +1,8 @@
-REPO="https://github.com/NihalSatbhai/Demo-Rails.git"
-DIR="sample-rails"
-git clone $REPO ~/$DIR
-cd $DIR
-rm Gemfile.lock
+#!/usr/bin/
+
+rm -rf /var/www/ruby
+git clone https://github.com/JD4912/ruby_test.git /var/www/ruby
+# cd /var/www/ruby && rm Gemfile.lock 
+cd /var/www/ruby/ && rm Gemfile.lock
+#gem install bundler 
 bundle install
